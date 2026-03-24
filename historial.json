@@ -1,0 +1,482 @@
+[
+    {
+        "input": "Mi c\u00e9dula es 00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-21 21:29:53.469756"
+    },
+    {
+        "input": "hola",
+        "output": "0404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:34:02.780195"
+    },
+    {
+        "input": "hola",
+        "output": "\u00a1Hola! Soy tu asistente hospitalario.\n\n\u00bfEn qu\u00e9 puedo ayudarte hoy? Estoy aqu\u00ed para responder tus preguntas y guiarte.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:36:11.493595"
+    },
+    {
+        "input": "mi cedula la tiene quieir saber si  tengo cita",
+        "output": "\u00a1Claro que s\u00ed! Con gusto te ayudo a verificar si tienes una cita programada.\n\nEntiendo que no tienes tu c\u00e9dula contigo en este momento. Para poder buscar tu cita de forma precisa, el dato m\u00e1s importante es tu **n\u00famero de c\u00e9dula**.\n\n*   **Si sabes tu n\u00famero de c\u00e9dula de memoria, por favor, d\u00edmelo.** Con ese n\u00famero, es mucho m\u00e1s f\u00e1cil ubicar tu informaci\u00f3n.\n*   **Si no lo recuerdas o no lo tienes a mano, podemos intentar buscar con otros datos**, como tu **nombre completo y fecha de nacimiento**.\n\nUna vez que me proporciones la informaci\u00f3n, podr\u00e9 indicarte los pasos a seguir o d\u00f3nde contactar para confirmar tu cita.\n\nPor seguridad y privacidad, y dado que yo soy un asistente virtual y no tengo acceso directo a la base de datos de pacientes, la forma m\u00e1s r\u00e1pida y segura de confirmar tu cita es:\n\n1.  **Llamar directamente a nuestro departamento de citas:**\n    *   El n\u00famero de tel\u00e9fono para citas es [**INSERTAR N\u00daMERO DE TEL\u00c9FONO DEL HOSPITAL PARA CITAS AQU\u00cd**].\n    *   Ellos podr\u00e1n verificar tu informaci\u00f3n en el sistema en tiempo real.\n2.  **Si el hospital cuenta con un portal de pacientes en l\u00ednea:**\n    *   Puedes acceder con tus credenciales e intentar buscar tu pr\u00f3xima cita all\u00ed.\n\nCuando te comuniques con el hospital o uses el portal, aseg\u00farate de tener a mano tu n\u00famero de c\u00e9dula (si es posible), tu nombre completo y tu fecha de nacimiento.\n\nEstoy aqu\u00ed para ayudarte, as\u00ed que no dudes en contactarnos si tienes alguna otra pregunta.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:36:34.998858"
+    },
+    {
+        "input": "40212534248",
+        "output": "No se encontr\u00f3 ning\u00fan paciente con esa c\u00e9dula.",
+        "tipo": "db",
+        "timestamp": "2026-03-21 21:37:43.413015"
+    },
+    {
+        "input": "00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-21 21:40:03.943417"
+    },
+    {
+        "input": "hola",
+        "output": "\u00a1Hola! Soy tu asistente hospitalario. \u00bfEn qu\u00e9 puedo ayudarte hoy? Estoy aqu\u00ed para responder tus preguntas y facilitarte lo que necesites.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:41:46.370469"
+    },
+    {
+        "input": "        if paciente:",
+        "output": "\u00a1Excelente pregunta! Si un paciente est\u00e1 presente, la situaci\u00f3n se convierte en nuestra m\u00e1xima prioridad y se activan una serie de pasos clave para garantizar su bienestar y una atenci\u00f3n eficaz.\n\nAs\u00ed es como procedemos:\n\n*   **Acogida y Bienvenida C\u00e1lida:** Lo primero es siempre un saludo amable y una sonrisa. Nos acercamos con respeto, estableciendo contacto visual y usando un tono de voz tranquilo y tranquilizador. Queremos que el paciente se sienta bienvenido y seguro desde el primer momento.\n\n*   **Evaluaci\u00f3n de Necesidades Inmediatas:** Preguntamos al paciente o a sus acompa\u00f1antes el motivo de su visita o su principal preocupaci\u00f3n. Escuchamos activamente para comprender qu\u00e9 necesitan: \u00bfVienen para una cita programada? \u00bfEs una urgencia? \u00bfBuscan informaci\u00f3n? \u00bfNecesitan ayuda para orientarse?\n\n*   **Identificaci\u00f3n y Registro (si aplica):** Si es un nuevo paciente o si su visita requiere registro, guiamos el proceso de manera eficiente, solicitando la informaci\u00f3n necesaria (nombre, datos de contacto, motivo de la visita) con la m\u00e1xima discreci\u00f3n y respeto por su privacidad.\n\n*   **Orientaci\u00f3n y Direcci\u00f3n:** Una vez que conocemos sus necesidades, les indicamos claramente los siguientes pasos. Esto podr\u00eda ser:\n    *   Dirigirlos a la sala de espera adecuada.\n    *   Acompa\u00f1arlos a la consulta o departamento correspondiente.\n    *   Explicarles el procedimiento de triaje en caso de urgencia.\n    *   Proporcionarles informaci\u00f3n espec\u00edfica que hayan solicitado.\n\n*   **Comunicaci\u00f3n Constante y Clara:** Mantenemos al paciente informado sobre lo que va a suceder, cu\u00e1nto tiempo puede tardar (si es posible estimarlo) y qui\u00e9n ser\u00e1 la siguiente persona con la que interactuar\u00e1. Respondemos a sus preguntas con paciencia y claridad.\n\n*   **Confort y Apoyo:** Observamos si el paciente necesita algo adicional mientras espera o se desplaza (una silla, un vaso de agua, ayuda para moverse, una manta si tiene fr\u00edo). Nos ofrecemos para ayudar si notamos alguna se\u00f1al de malestar o ansiedad.\n\n*   **Privacidad y Dignidad:** En todo momento, aseguramos la confidencialidad de su informaci\u00f3n y tratamos al paciente con el m\u00e1ximo respeto por su dignidad, garantizando un entorno discreto para cualquier conversaci\u00f3n o procedimiento.\n\nEn resumen, **si un paciente est\u00e1 presente, nos dedicamos a escuchar, guiar, apoyar y asegurar que reciba la atenci\u00f3n m\u00e1s adecuada y humana posible, con profesionalidad, claridad y mucha amabilidad.**",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:41:56.709416"
+    },
+    {
+        "input": "00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-21 21:42:30.486173"
+    },
+    {
+        "input": "00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-21 21:43:07.672911"
+    },
+    {
+        "input": "terminar",
+        "output": "De acuerdo. Si esto es todo por ahora, espero haberle sido de gran ayuda.\n\nRecuerde que como su asistente hospitalario, estoy aqu\u00ed para apoyarle en lo que necesite en el futuro. No dude en contactarme de nuevo si le surge alguna otra pregunta o necesidad.\n\nLe deseo un excelente d\u00eda.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:43:24.884606"
+    },
+    {
+        "input": "holaaaa",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:46:53.781912"
+    },
+    {
+        "input": "nescito ir a emercgecias",
+        "output": "Entendido. Notifico a urgencias.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:47:03.282771"
+    },
+    {
+        "input": "no solo quier ir alli",
+        "output": "Para poder ayudarle, \u00bfpodr\u00eda indicarme a d\u00f3nde desea ir?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:47:13.358325"
+    },
+    {
+        "input": "a emergecia",
+        "output": "Emergencias notificado.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:47:20.824806"
+    },
+    {
+        "input": "quieri ir a aemergecia",
+        "output": "Se ha notificado a Urgencias.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:47:28.998010"
+    },
+    {
+        "input": "no  tengo una emergecia, solo  que tengo un familiar ahi y quieri visitarlo",
+        "output": "Dir\u00edjase a la recepci\u00f3n o al mostrador de informaci\u00f3n. All\u00ed le indicar\u00e1n los horarios de visita y c\u00f3mo encontrar a su familiar.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:47:48.647120"
+    },
+    {
+        "input": "holad",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:49:29.328830"
+    },
+    {
+        "input": "quiero ir a emergecia",
+        "output": "Dir\u00edjase al piso 1, ala este. Notifico a urgencias.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:49:37.196815"
+    },
+    {
+        "input": "solo qiero saberdonde esta no soy un pasoente",
+        "output": "Disculpe, \u00bfqu\u00e9 necesita encontrar?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:49:58.636499"
+    },
+    {
+        "input": "la  zona d e urgencia",
+        "output": "La zona de urgencias est\u00e1 en el piso 1, en el ala este.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:50:11.140103"
+    },
+    {
+        "input": "      ok",
+        "output": "De acuerdo.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:50:17.349061"
+    },
+    {
+        "input": "ok",
+        "output": "De acuerdo.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:50:20.892029"
+    },
+    {
+        "input": "                ",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:50:24.799371"
+    },
+    {
+        "input": "dode est la ahabitacion 202",
+        "output": "No tengo la ubicaci\u00f3n espec\u00edfica de la habitaci\u00f3n 202.\n\nPuede preguntar en Informaci\u00f3n, en la entrada principal, en el quiosco azul.\n\n\u00bfDesea terminar?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:51:20.817534"
+    },
+    {
+        "input": "si",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 21:51:34.833180"
+    },
+    {
+        "input": "hoal",
+        "output": "El servicio de inteligencia artificial no est\u00e1 disponible en este momento. Intenta m\u00e1s tarde.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 22:52:36.494376"
+    },
+    {
+        "input": "4021548954",
+        "output": "El servicio de inteligencia artificial no est\u00e1 disponible en este momento. Intenta m\u00e1s tarde.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 22:52:45.816782"
+    },
+    {
+        "input": "00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-21 22:52:53.143594"
+    },
+    {
+        "input": "hoal",
+        "output": "El servicio de inteligencia artificial no est\u00e1 disponible en este momento. Intenta m\u00e1s tarde.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:06:28.461648"
+    },
+    {
+        "input": "hoal",
+        "output": "El servicio de inteligencia artificial no est\u00e1 disponible en este momento. Intenta m\u00e1s tarde.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:09:38.865489"
+    },
+    {
+        "input": "",
+        "output": "El servicio de inteligencia artificial no est\u00e1 disponible en este momento. Intenta m\u00e1s tarde.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:09:41.369684"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:12:12.835388"
+    },
+    {
+        "input": "si",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:12:23.160489"
+    },
+    {
+        "input": "si",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:12:30.270283"
+    },
+    {
+        "input": "habitacion",
+        "output": "No tengo la ubicaci\u00f3n espec\u00edfica de la habitaci\u00f3n 202.\n\nPuede preguntar en Informaci\u00f3n, en la entrada principal, en el quiosco azul.\n\n\u00bfDesea terminar?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:12:38.895319"
+    },
+    {
+        "input": "no te dije ese nuemro",
+        "output": "Gracias por la aclaraci\u00f3n. \u00bfC\u00f3mo puedo ayudarle hoy con informaci\u00f3n hospitalaria?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 23:12:57.222509"
+    },
+    {
+        "input": "sabes en que habitacion esta jose",
+        "output": "Lamento no poder darte esa informaci\u00f3n directamente por motivos de privacidad. Puedes preguntar en el mostrador de recepci\u00f3n en el piso principal, ellos te ayudar\u00e1n con gusto.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 23:13:21.535539"
+    },
+    {
+        "input": "ok",
+        "output": "De acuerdo.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:13:33.900990"
+    },
+    {
+        "input": "terminar",
+        "output": "De acuerdo. Si esto es todo por ahora, espero haberle sido de gran ayuda.\n\nRecuerde que como su asistente hospitalario, estoy aqu\u00ed para apoyarle en lo que necesite en el futuro. No dude en contactarme de nuevo si le surge alguna otra pregunta o necesidad.\n\nLe deseo un excelente d\u00eda.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:13:39.151980"
+    },
+    {
+        "input": "igual",
+        "output": "Por favor, especifique qu\u00e9 necesita. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 23:13:52.176101"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:14:37.121841"
+    },
+    {
+        "input": "hi",
+        "output": "Dir\u00edjase a la recepci\u00f3n o al mostrador de informaci\u00f3n. All\u00ed le indicar\u00e1n los horarios de visita y c\u00f3mo encontrar a su familiar.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-21 23:14:40.137932"
+    },
+    {
+        "input": "pero no e dicho nada",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle hoy?",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 23:14:51.176796"
+    },
+    {
+        "input": "perfectos",
+        "output": "Gracias.",
+        "tipo": "ia",
+        "timestamp": "2026-03-21 23:14:59.472914"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 18:58:53.126321"
+    },
+    {
+        "input": "306",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 18:59:25.613123"
+    },
+    {
+        "input": "306",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 18:59:42.323374"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:08:43.870325"
+    },
+    {
+        "input": "puede decirme donde esta la habitacion 202",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4.\n\n\u00bfDesea terminar la conversaci\u00f3n?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:09:02.969605"
+    },
+    {
+        "input": "no",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle hoy?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:09:12.990732"
+    },
+    {
+        "input": "202",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4.\n\n\u00bfDesea terminar la conversaci\u00f3n?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:09:19.660611"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:11:16.476616"
+    },
+    {
+        "input": "202",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4.\n\n\u00bfDesea terminar la conversaci\u00f3n?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:11:23.510664"
+    },
+    {
+        "input": "no",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle hoy?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:11:26.453413"
+    },
+    {
+        "input": "si",
+        "output": "\u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:11:29.656174"
+    },
+    {
+        "input": "nosi",
+        "output": "Disculpe, \u00bfpodr\u00eda repetir lo que necesita, por favor?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:11:37.414031"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:19:45.759652"
+    },
+    {
+        "input": "hola",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:19:49.265280"
+    },
+    {
+        "input": "holahola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:19:54.818727"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:19:58.579552"
+    },
+    {
+        "input": "v",
+        "output": "Dir\u00edjase a la recepci\u00f3n o al mostrador de informaci\u00f3n. All\u00ed le indicar\u00e1n los horarios de visita y c\u00f3mo encontrar a su familiar.",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:28:44.261613"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:32:21.703486"
+    },
+    {
+        "input": "doscientos dos",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4.\n\n\u00bfDesea terminar la conversaci\u00f3n?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:32:50.219557"
+    },
+    {
+        "input": "00112345678",
+        "output": "Paciente encontrado:\nNombre: Juan P\u00e9rez\nCita: Cardiolog\u00eda - 10:00 AM\nEstado: En espera",
+        "tipo": "db",
+        "timestamp": "2026-03-22 21:33:06.304489"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:37:17.926648"
+    },
+    {
+        "input": "",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:37:28.106385"
+    },
+    {
+        "input": "",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:37:50.223409"
+    },
+    {
+        "input": "doscientos dos",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4. \u00bfDesea terminar?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:38:02.827209"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:44:51.770880"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:47:00.645724"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:47:16.280933"
+    },
+    {
+        "input": "vv",
+        "output": "No le he entendido. \u00bfPodr\u00eda por favor repetirlo?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:47:43.562936"
+    },
+    {
+        "input": "dos cientos de",
+        "output": "Disculpe, \u00bfpodr\u00eda repetir eso un poco m\u00e1s claro?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:48:05.073088"
+    },
+    {
+        "input": "doscientos dos",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4. \u00bfDesea terminar?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:49:43.896434"
+    },
+    {
+        "input": "V",
+        "output": "No le he entendido. \u00bfPodr\u00eda por favor repetirlo?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:52:22.798455"
+    },
+    {
+        "input": "V",
+        "output": "No le he entendido. \u00bfPodr\u00eda por favor repetirlo?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:52:28.880062"
+    },
+    {
+        "input": "hola",
+        "output": "Hola. \u00bfEn qu\u00e9 puedo ayudarle?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:52:36.955169"
+    },
+    {
+        "input": "doscientos dos",
+        "output": "La habitaci\u00f3n 202 est\u00e1 en el piso 4. \u00bfDesea terminar?",
+        "tipo": "memoria",
+        "timestamp": "2026-03-22 21:52:45.275483"
+    },
+    {
+        "input": "s\u00ed",
+        "output": "Hola, \u00bfen qu\u00e9 puedo ayudarte?",
+        "tipo": "ia",
+        "timestamp": "2026-03-22 21:52:57.391348"
+    }
+]
